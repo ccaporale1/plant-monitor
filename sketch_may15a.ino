@@ -4,9 +4,8 @@
 #define DHTTYPE DHT11
 
 DHT dht(DHTPIN,DHTTYPE);
-const int ldrPin = A1; // analog pin 1
-const int moisturePin = A3;
-const int tempHumPin = A5;
+const int ldrPin = A3; 
+const int moisturePin = A1;
 int val;
 
 void setup() { //  Void setup function will only run once, after each powerup or reset of the Arduino board.
